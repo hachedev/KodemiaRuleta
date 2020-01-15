@@ -1,0 +1,228 @@
+@charset "UTF-8";
+body {
+  background: #fff;
+}
+
+/*Animación para intercambiar el ícono de la ruleta*/
+@-webkit-keyframes randomBackground {
+  0% {
+    background: url("../img/Funciones.png");
+    background-size: cover;
+  }
+  12% {
+    background: url("../img/Estructuras.png");
+    background-size: cover;
+  }
+  24% {
+    background: url("../img/TiposDeDatos.png");
+    background-size: cover;
+  }
+  36% {
+    background: url("../img/Pensamiento.png");
+    background-size: cover;
+  }
+  48% {
+    background: url("../img/Cultura.png");
+    background-size: cover;
+  }
+  60% {
+    background: url("../img/Js.png");
+    background-size: cover;
+  }
+  72% {
+    background: url("../img/Algoritmo.png");
+    background-size: cover;
+  }
+  84% {
+    background: url("../img/Internet.png");
+    background-size: cover;
+  }
+  96% {
+    background: url("../img/Computacion.png");
+    background-size: cover;
+  }
+}
+
+.font-marker {
+  font-family: "Permanent Marker", cursive;
+}
+
+.green-text {
+  color: #1bff00;
+}
+
+.cover-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cover-wrapper img {
+  width: 40%;
+  margin-top: 20px;
+}
+
+.cover-wrapper p {
+  color: #1bff00;
+  font-family: 'Permanent Marker', cursive;
+  width: 50%;
+  text-align: right;
+  font-size: 30px;
+  margin-top: -30px;
+  padding-right: 50px;
+}
+
+.team-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: black;
+  font-size: 20px;
+  width: 100%;
+  font-family: "Permanent Marker", cursive;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.team-wrapper span {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  font-size: 30px;
+  margin-right: 30px;
+}
+
+.team-wrapper input {
+  background: black;
+  border: 1px solid green;
+  color: #1bff00;
+  height: 50px;
+  font-family: 'Press Start 2P', cursive;
+  text-align: right;
+  margin-right: 30px;
+  width: 50%;
+}
+
+.team-wrapper .btn {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #1bff00;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 28px;
+}
+
+.team-wrapper .btn.btn-outline-primary {
+  border: 1px solid #1bff00;
+  color: #1bff00;
+}
+
+.team-wrapper .btn:hover {
+  color: #333;
+  border: 1px solid #1bff00;
+  background: #1bff00;
+  cursor: pointer;
+}
+
+.random-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #1bff00;
+  font-family: "Permanent Marker", cursive;
+}
+
+.random-wrapper .category-img-wrapper {
+  width: 200px;
+  height: 200px;
+}
+
+.random-wrapper .category-img-wrapper.randomized {
+  /*Si agregamos esta clase, la ruleta obtiene la animación de íconos*/
+  -webkit-animation-name: randomBackground;
+          animation-name: randomBackground;
+  -webkit-animation-duration: .3s;
+          animation-duration: .3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.random-wrapper .category-img-wrapper.icon-Funciones {
+  background: url("../img/Funciones.png");
+  background-size: cover;
+}
+
+.random-wrapper .category-img-wrapper.icon-Estructuras {
+  background: url("../img/Estructuras.png");
+  background-size: cover;
+}
+
+.random-wrapper .category-img-wrapper.icon-TiposDeDatos {
+  background: url("../img/TiposDeDatos.png");
+  background-size: cover;
+}
+
+.random-wrapper .category-img-wrapper.icon-Pensamiento {
+  background: url("../img/Pensamiento.png");
+  background-size: cover;
+}
+
+.random-wrapper .category-img-wrapper.icon-Cultura {
+  background: url("../img/Cultura.png");
+  background-size: cover;
+}
+
+.random-wrapper .category-img-wrapper.icon-Js {
+  background: url("../img/Js.png");
+  background-size: cover;
+}
+
+.random-wrapper .category-img-wrapper.icon-Algoritmo {
+  background: url("../img/Algoritmo.png");
+  background-size: cover;
+}
+
+.random-wrapper .category-img-wrapper.icon-Internet {
+  background: url("../img/Internet.png");
+  background-size: cover;
+}
+
+.random-wrapper .category-img-wrapper.icon-Computacion {
+  background: url("../img/Computacion.png");
+  background-size: cover;
+}
+
+.random-wrapper .difficulty-wrapper {
+  margin-top: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.random-wrapper .btn-dark {
+  border: 1px solid white;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
