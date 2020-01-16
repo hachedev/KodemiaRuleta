@@ -4,7 +4,6 @@ var categoryArray = [
     "Estructuras",
     "TiposDeDatos",
     "Pensamiento",
-    "Cultura",
     "Js",
     "Algoritmo",
     "Internet",
@@ -30,47 +29,43 @@ function toggleRandom(button) {
         let randomCategory = categoryArray[randomCategoryIndex]; /*seleccionar la categoría con base en el número aleatorio*/
         switch (randomCategory) { /*Cambio de estado del logo con base en la categoría seleccionada*/
             case "Funciones":
-                $(".category-img-wrapper").removeClass("icon-Funciones icon-Estructuras icon-TiposDeDatos icon-Pensamiento icon-Cultura icon-Js icon-Algoritmo icon-Internet icon-Computacion");
+                $(".category-img-wrapper").removeClass("icon-Funciones icon-Estructuras icon-TiposDeDatos icon-Pensamiento icon-Js icon-Algoritmo icon-Internet icon-Computacion");
                 $(".category-img-wrapper").addClass("icon-Funciones");
                 break;
 
             case "Estructuras":
-                $(".category-img-wrapper").removeClass("icon-Funciones icon-Estructuras icon-TiposDeDatos icon-Pensamiento icon-Cultura icon-Js icon-Algoritmo icon-Internet icon-Computacion");
+                $(".category-img-wrapper").removeClass("icon-Funciones icon-Estructuras icon-TiposDeDatos icon-Pensamiento icon-Js icon-Algoritmo icon-Internet icon-Computacion");
                 $(".category-img-wrapper").addClass("icon-Estructuras");
                 break;
 
             case "TiposDeDatos":
-                $(".category-img-wrapper").removeClass("icon-Funciones icon-Estructuras icon-TiposDeDatos icon-Pensamiento icon-Cultura icon-Js icon-Algoritmo icon-Internet icon-Computacion");
+                $(".category-img-wrapper").removeClass("icon-Funciones icon-Estructuras icon-TiposDeDatos icon-Pensamiento icon-Js icon-Algoritmo icon-Internet icon-Computacion");
                 $(".category-img-wrapper").addClass("icon-TiposDeDatos");
                 break;
 
             case "Pensamiento":
-                $(".category-img-wrapper").removeClass("icon-Funciones icon-Estructuras icon-TiposDeDatos icon-Pensamiento icon-Cultura icon-Js icon-Algoritmo icon-Internet icon-Computacion");
+                $(".category-img-wrapper").removeClass("icon-Funciones icon-Estructuras icon-TiposDeDatos icon-Pensamiento icon-Js icon-Algoritmo icon-Internet icon-Computacion");
                 $(".category-img-wrapper").addClass("icon-Pensamiento");
                 break;
 
-            case "Cultura":
-                $(".category-img-wrapper").removeClass("icon-Funciones icon-Estructuras icon-TiposDeDatos icon-Pensamiento icon-Cultura icon-Js icon-Algoritmo icon-Internet icon-Computacion");
-                $(".category-img-wrapper").addClass("icon-Cultura");
-                break;
-
+            
             case "Js":
-                $(".category-img-wrapper").removeClass("icon-Funciones icon-Estructuras icon-TiposDeDatos icon-Pensamiento icon-Cultura icon-Js icon-Algoritmo icon-Internet icon-Computacion");
+                $(".category-img-wrapper").removeClass("icon-Funciones icon-Estructuras icon-TiposDeDatos icon-Pensamiento icon-Js icon-Algoritmo icon-Internet icon-Computacion");
                 $(".category-img-wrapper").addClass("icon-Js");
                 break;
 
             case "Algoritmo":
-                $(".category-img-wrapper").removeClass("icon-Funciones icon-Estructuras icon-TiposDeDatos icon-Pensamiento icon-Cultura icon-Js icon-Algoritmo icon-Internet icon-Computacion");
+                $(".category-img-wrapper").removeClass("icon-Funciones icon-Estructuras icon-TiposDeDatos icon-Pensamiento icon-Js icon-Algoritmo icon-Internet icon-Computacion");
                 $(".category-img-wrapper").addClass("icon-Algoritmo");
                 break;
 
             case "Internet":
-                $(".category-img-wrapper").removeClass("icon-Funciones icon-Estructuras icon-TiposDeDatos icon-Pensamiento icon-Cultura icon-Js icon-Algoritmo icon-Internet icon-Computacion");
+                $(".category-img-wrapper").removeClass("icon-Funciones icon-Estructuras icon-TiposDeDatos icon-Pensamiento icon-Js icon-Algoritmo icon-Internet icon-Computacion");
                 $(".category-img-wrapper").addClass("icon-Internet");
                 break;
 
             case "Computacion":
-                $(".category-img-wrapper").removeClass("icon-Funciones icon-Estructuras icon-TiposDeDatos icon-Pensamiento icon-Cultura icon-Js icon-Algoritmo icon-Internet icon-Computacion");
+                $(".category-img-wrapper").removeClass("icon-Funciones icon-Estructuras icon-TiposDeDatos icon-Pensamiento icon-Js icon-Algoritmo icon-Internet icon-Computacion");
                 $(".category-img-wrapper").addClass("icon-Computacion");
                 break;
 

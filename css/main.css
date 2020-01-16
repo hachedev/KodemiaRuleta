@@ -9,27 +9,23 @@ body {
     background: url("../img/Funciones.png");
     background-size: cover;
   }
-  12% {
+  14% {
     background: url("../img/Estructuras.png");
     background-size: cover;
   }
-  24% {
+  28% {
     background: url("../img/TiposDeDatos.png");
     background-size: cover;
   }
-  36% {
+  42% {
     background: url("../img/Pensamiento.png");
     background-size: cover;
   }
-  48% {
-    background: url("../img/Cultura.png");
-    background-size: cover;
-  }
-  60% {
+  56% {
     background: url("../img/Js.png");
     background-size: cover;
   }
-  72% {
+  70% {
     background: url("../img/Algoritmo.png");
     background-size: cover;
   }
@@ -37,7 +33,7 @@ body {
     background: url("../img/Internet.png");
     background-size: cover;
   }
-  96% {
+  100% {
     background: url("../img/Computacion.png");
     background-size: cover;
   }
@@ -187,11 +183,6 @@ body {
 
 .random-wrapper .category-img-wrapper.icon-Pensamiento {
   background: url("../img/Pensamiento.png");
-  background-size: cover;
-}
-
-.random-wrapper .category-img-wrapper.icon-Cultura {
-  background: url("../img/Cultura.png");
   background-size: cover;
 }
 
